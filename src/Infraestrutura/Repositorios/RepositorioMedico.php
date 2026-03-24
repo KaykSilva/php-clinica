@@ -3,7 +3,7 @@
 namespace Luizlins\Projeto01\Infraestrutura\Repositorios;
 
 use Luizlins\Projeto01\Dominio\Modulos\Medico;
-use Luizlins\Projeto01\Dominio\Repositorio\RepositorioMedicoInterface;
+use Luizlins\Projeto01\Dominio\Repositorios\RepositorioMedicoInterface;
 use Luizlins\Projeto01\Infraestrutura\Persistencia\FabricaConexao;
 use PDO;
 use PDOStatement;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Luizlins\Projeto01\Dominio\Repositorio;
+namespace Luizlins\Projeto01\Dominio\Repositorios;
 
 use Luizlins\Projeto01\Dominio\Modulos\Medico;
 
