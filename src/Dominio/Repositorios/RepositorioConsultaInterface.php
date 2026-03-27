@@ -2,20 +2,13 @@
 
 namespace Luizlins\Projeto01\Dominio\Repositorios;
 
-use Luizlins\Projeto01\Dominio\Modulos\Medico;
+use Luizlins\Projeto01\Dominio\Modulos\Consulta;
 
-interface RepositorioMedicoInterface
+interface RepositorioConsultaInterface
 {
-    /**
-     * @return Medico[]
-     */
     public function listar(): array;
-
-    public function inserir(Medico $medico): bool;
-
-    public function deletar(Medico $medico): bool;
-
-    public function atualizar(Medico $medico): bool;
-
-    public function recuperar(int $id): ?Medico;
+    public function inserir(Consulta $consulta): bool;
+    public function deletar(Consulta $consulta): bool;
+    public function atualizar(Consulta $consulta): bool;
+    public function recuperar(int $id): ?Consulta;
 }
